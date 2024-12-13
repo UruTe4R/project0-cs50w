@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
 	<!-- this meta tag will ensure latest rendering. -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css">
     <title>Google Search</title>
   </head>
+
   <body>
-    <h1>hello world</h1>
-  </body>
+	  <div class="outer-container">
+			<div class="text"><img src="chrome://new-tab-page/icons/google_logo.svg" alt="Google"></div>
+			<form class="container" action="https://google.com/search">
+				<input class="searchbar" autofocus type="search" placeholder="Google Search" name="q">
+				<input class="button" type="submit" value="Google Search">
+			</form>
+	</div>
+	</body>
 </html>
