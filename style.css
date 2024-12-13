@@ -65,14 +65,19 @@ nav {
   border: 3px solid rgba(14, 48, 143, 0.61);
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.8); }
 
+.buttons {
+  display: flex; }
+
 .button {
-  margin-top: 20px;
-  height: 48px;
+  color: white;
+  background-color: #303134;
+  margin: 20px 8px 0;
+  height: 36px;
   width: 120px;
-  border-radius: 24px;
-  border: 1px solid black;
-  display: block;
-  background-color: white; }
+  border-radius: 5px;
+  border: none;
+  border: 0.2px solid rgba(0, 0, 0, 0.2);
+  display: block; }
 
 .button:hover {
   background-color: rgba(216, 216, 216, 0.863);
@@ -99,7 +104,8 @@ td lable {
   height: 34px;
   background-color: #8ab4f8;
   border: none;
-  border-radius: 3px; }
+  border-radius: 3px;
+  color: white; }
 
 .advanced-button:hover {
   background-color: #4d90fe;
