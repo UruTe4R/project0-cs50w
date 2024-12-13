@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+	<!-- this meta tag will ensure latest rendering. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css">
+    <title>Advanced Search</title>
+  </head>
+
+  <body>
+
+	<header>
+		<nav>
+			<div class="nav-container">
+				<a class="menu" href="index.html">Google Search</a>
+				<a class="menu" href="image.html">Image Search</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="outer-container">
+			<div class="text">Google</div>
+			<form class="container" action="https://google.com/search" method="get">
+        <table>
+          <tr class="row">
+            <td>
+              <lable for="all">all these words:</lable>
+            </td>
+            <td>  
+              <input class="advanced" id="all" type="search" name="q">
+            </td>
+          </tr>
+
+          <tr class="row">
+            <td>
+              <lable for="this">this exact word or phrase:</lable>
+            </td>
+            <td>
+              <input class="advanced" id="this" type="search" name="q">
+            </td>
+          </tr>
+  
+          <tr class="row">
+            <td>
+              <lable for="any">any of these words:</lable>
+            </td>
+            <td>
+              <input class="advanced" id="any" type="search" name="q">
+            </td>
+          </tr>
+  
+          <tr class="row">
+            <td>
+              <lable for="none">none of these words:</lable>
+            </td>
+            <td>
+              <input class="advanced" id="none" type="search" name="q">
+            </td>
+          </tr>
+        </table>
+          <input class="advanced-button" type="submit" value="Advanced Search">
+			</form>
+		</div>
+	</main>
+
+	</body>
+</html>

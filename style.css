@@ -1,7 +1,27 @@
 body {
+  font-family: Arial;
   box-sizing: border-box;
   margin: 10px;
   background-color: rgba(0, 0, 0, 0.8); }
+
+nav {
+  position: absolute;
+  right: 50px;
+  top: 50px; }
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; }
+
+.menu {
+  color: white;
+  font-size: 1 rem;
+  text-decoration: none; }
+
+.menu:hover {
+  text-decoration: underline; }
 
 .outer-container {
   display: flex;
@@ -48,13 +68,41 @@ body {
 .button {
   margin-top: 20px;
   height: 48px;
-  width: 90px;
+  width: 120px;
   border-radius: 24px;
   border: 1px solid black;
   display: block;
   background-color: white; }
 
 .button:hover {
-  background-color: rgba(128, 128, 128, 0.37); }
+  background-color: rgba(216, 216, 216, 0.863);
+  cursor: pointer; }
+
+table {
+  border-spacing: 20px; }
+
+td lable {
+  color: white; }
+
+.advanced {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+  padding: 0 10px;
+  width: 454px;
+  height: 29px;
+  color: white; }
+
+.advanced-button {
+  position: relative;
+  right: -270px;
+  width: 120px;
+  height: 34px;
+  background-color: #8ab4f8;
+  border: none;
+  border-radius: 3px; }
+
+.advanced-button:hover {
+  background-color: #4d90fe;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

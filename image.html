@@ -1,1 +1,33 @@
-https://www.google.com/search?sca_esv=304c4ee5713996df&rlz=1C1FQRR_jaJP977JP977&sxsrf=ADLYWII6xvhVbMlcBwk1vNX2_1BXpKmNHg:1734082035876&q=harvard&udm=2&fbs=AEQNm0DOesMzpL3_zyX4PalAGZfUGsb6Sbd9Ww3XeU64F9--8IlT4xcet6sl-dGJVxYLLatJzOJktJmWTcBhX2z_DIpx4MDOZrE1CIZH1vo29uN_Y20S_ajpXA5WG7tRsA8cm0qsfBTf3TIHIaVS2aGOCkswXTVPUk4EiBRrsp4v8cbhK4ydY5t-x2EcpIbfi6RUlcdqJHpKQx3re95pRb1hWrpuxIrJ1phLlLtLLG2t7i6re-uOiVo&sa=X&ved=2ahUKEwi1xIn-tqSKAxVMg1YBHV0yMycQtKgLegQIDRAB&biw=958&bih=478&dpr=1
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+	<!-- this meta tag will ensure latest rendering. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css">
+    <title>Image Search</title>
+  </head>
+
+  <body>
+	<header>
+		<nav>
+			<div class="nav-container">
+				<a class="menu" href="index.html">Google Search</a>
+				<a class="menu" href="advanced.html">Advanced Search</a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="outer-container">
+			<div class="text">Google</div>
+			<form class="container" action="https://google.com/search" method="get">
+        <input type="hidden" name="tbm" value="isch">
+				<input class="searchbar" autofocus type="search" placeholder="Image Search" name="q">
+				<input class="button" type="submit" value="Image Search">
+			</form>
+		</div>
+	</main>
+	</body>
+</html>
