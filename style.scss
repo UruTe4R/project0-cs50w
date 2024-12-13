@@ -37,10 +37,27 @@ body {
   font-size: 1.4rem;
 }
 
+@media (max-width: 850px) {
+  .searchbar {
+    width: 640px;
+  }
+}
+@media (max-width: 700px) {
+  .searchbar {
+    width: 500px;
+  }
+}
+@media (max-width: 530px) {
+  .searchbar {
+    width: 400px;
+  }
+}
+
 .searchbar:focus {
   border: 3px solid rgba(14, 48, 143, 0.61);
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.8)
 }
+
 
 .button {
   margin-top: 20px;
